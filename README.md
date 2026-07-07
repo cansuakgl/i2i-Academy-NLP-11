@@ -9,6 +9,9 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 ```
+### Demo
+
+![Demo GIF](demo.gif)
 
 ### What the script does
 
@@ -27,3 +30,5 @@ The dataset used in this project is `movie.csv`, downloaded from the following K
 https://www.kaggle.com/datasets/yasserh/imdb-movie-ratings-sentiment-analysis
 
 The current script configuration analyzes the first 500 reviews from that file. 
+
+
