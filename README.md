@@ -11,7 +11,7 @@ python -m pip install -r requirements.txt
 ```
 ### Demo
 
-![Demo GIF](demo.gif)
+![Demo GIF](./docs/demo.gif)
 
 ### What the script does
 
