@@ -78,6 +78,20 @@ def main() -> None:
         df["sentiment_label"].value_counts(normalize=True).sort_index() * 100
     ).round(2)
 
+    print("\nSentiment Statistics")
+    print("-" * 50)
+    print(f"Text column used: {text_column}")
+    print(f"Total reviews: {len(df)}")
+    print(f"Average sentiment score: {df['sentiment_score'].mean():.4f}")
+
+    print("\nLabel counts:")
+    print(label_counts.to_string())
+
+    print("\nLabel percentages:")
+    print(label_percentages.to_string())
+
+    print(f"\nProcessed file saved to: {OUTPUT_CSV}")
+
     print(f"Total reviews: {len(df)}")
     print(f"Average sentiment score: {df['sentiment_score'].mean():.4f}")
 
